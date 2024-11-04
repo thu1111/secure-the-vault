@@ -5,21 +5,21 @@
 4. show user the outputSting with alrt()
 */
 
-
 //a variable assigned with message string for user
-const userString = "You have received this message because you have been chosen to open an important vault. Here is the secret combination: ";
+const message1 =
+  "You have received this message because you have been chosen to open an important vault. Here is the secret combination:";
 
 //assign num1 with calculation that results the number 10
-const num1 = 40/4;
+const num1 = 40 / 4;
 
 //assign num1 with calculation that results the number 40
-const num2 = 25+15;
+const num2 = 25 + 15;
 
 //assign num1 with calculation that results the number 39
-const num3 = 45-6;
+const num3 = 45 - 6;
 
 //combine all the message and number combination
-let outputString = `${userString} ${num1} - ${num2} - ${num3}`;
+let finalmessage = `${message1} ${num1} - ${num2} - ${num3}`;
 
-//print message and number combination to the user 
-alert(outputString);
+//print final message to the user
+alert(finalmessage);
